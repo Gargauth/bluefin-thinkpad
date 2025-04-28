@@ -21,14 +21,6 @@ modules:
     repos:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
       - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-      - |
-        [1password]
-        name=1Password Stable Channel
-        baseurl=https://downloads.1password.com/linux/rpm/stable/$basearch
-        enabled=1
-        gpgcheck=1
-        repo_gpgcheck=1
-        gpgkey="https://downloads.1password.com/linux/keys/1password.asc"
     install:
       - thinkfan
       - keepassxc
